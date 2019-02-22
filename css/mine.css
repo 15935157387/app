@@ -1,0 +1,202 @@
+/*个人中心头部开始*/
+#header{
+    width: 100%;
+    height: 1.6rem;
+    background: #ffb20c;
+    padding-top: 0.26rem;
+}
+#header>.headerTitle{
+    width: 6.98rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerTitle>.titleText{
+    font-size: 0.36rem;
+    font-family: "苹方 粗体";
+    color: #fff;
+}
+.headerTitle img{
+    width: 0.36rem;
+    height: 0.36rem;
+}
+#header>.infoBox{
+    width: 7.02rem;
+    height: 2.7rem;
+    margin: 0.42rem auto 0.28rem;
+}
+.infoBox .infoItem{
+    display: block;
+    width: 7.02rem;
+    height: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(255, 178, 12, 0.53);
+    border-radius: 0.1rem;
+    padding-top: 0.24rem;
+    margin-bottom: 0.57rem;
+}
+.infoItem .headPic{
+    width: 1.02rem;
+    height: 1.02rem;
+    margin: 0 0.24rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(255, 178, 12, 0.53);
+    float: left;
+}
+.headPic img{
+    width: 1.02rem;
+}
+.infoBox .infoText{
+    width: auto;
+    height: 1.02rem;
+    float: left;
+    margin-left: 0.24rem;
+}
+.infoText .text{
+    font-size: 0.24rem;
+    font-family: "苹方 粗体";
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 0.01rem;
+}
+.infoText .text .iconfont{
+    width: 0.14rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+}
+.infoBox .property {
+    width: 5.02rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.property .num{
+    font-size: 0.24rem;
+    font-family: "苹方 粗体";
+    color: #ffb20c;
+}
+.property .type{
+    font-size: 0.22rem;
+    font-family: "苹方 粗体";
+    color: rgba(0,0,0,0.6);
+}
+.property a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*个人中心头部结束*/
+/*个人中心列表开始*/
+.mineListBox{
+    width: 100%;
+    height: 8.2rem;
+    background: #eeeeee;
+    position: absolute;
+    bottom: 0.98rem;
+}
+.listInfo{
+    width: 7.02rem;
+    height: 0.88rem;
+    margin: 0.24rem;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.listInfo>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.15rem;
+}
+.listInfo>a img{
+    width: 0.58rem;
+    height: 0.58rem;
+    margin: 0 0.24rem;
+    float: left;
+}
+.listInfo>a span{
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.54rem;
+    color: #000000;
+    opacity: 0.5;
+    float: left;
+ }
+.listInfo>a div{
+    width: 0.6rem;
+    height: 0.34rem;
+    background: #ff296f;
+    border-radius: 0.17rem;
+    margin-top: 0.12rem;
+    margin-right: 0.24rem;
+    float: right;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #fff;
+    font-family: "San Francisco Display-Bold";
+}
+.listInfo>a div .iconfont{
+    font-size: 0.24rem;
+    text-align: center;
+}
+/*个人中心列表结束*/
+/*个人中心底部开始*/
+.bigFooter{
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+#footerBox{
+    width: 7.02rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    padding-top: 0.13rem;
+}
+#footerBox ul{
+    width: 7.02rem;
+    height: 0.71rem;
+    display: flex;
+    justify-content: space-between;
+}
+#footerBox a{
+    width: 0.6rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#footerBox ul li{
+    text-align: center;
+}
+#footerBox ul li .iconSelect{
+    font-size: 0.42rem;
+    color: #ffb20c;
+    float: left;
+
+}
+#footerBox ul li .text{
+    width: 100%;
+    font-size: 0.16rem;
+    color: #ffb20c;
+    text-align: center;
+}
+#footerBox ul li .iconAsh{
+    font-size: 0.42rem;
+    color: rgba(0,0,0,0.5);
+    float: left;
+}
+#footerBox ul li .text1{
+    width: 100%;
+    font-size: 0.16rem;
+    color: rgba(0,0,0,0.5);
+}
+/*个人中心底部结束*/

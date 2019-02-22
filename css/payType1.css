@@ -1,0 +1,106 @@
+/*支付方式1背景开始*/
+#bg{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*支付方式1背景结束*/
+/*支付方式1内容开始*/
+.payContentBox1{
+    width: 100%;
+    height:7.22rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+.payContent1{
+    width: 6.54rem;
+    height: 5.96rem;
+    margin: 0.63rem 0.48rem;
+}
+.title{
+    width: 100%;
+    height: 0.36rem;
+    font-family: "苹方 粗体";
+    font-size: 0.34rem;
+    color: #ffb20c;
+    opacity: 0.8;
+    text-align: center;
+    line-height: 0.36rem;
+}
+.title .iconfont{
+    font-size: 0.34rem;
+}
+.title a{
+    color: #ffb20c;
+    float: left;
+}
+.payNum{
+    width: 100%;
+    height: 0.4rem;
+    margin: 0.5rem 0;
+    font-family: "苹方 粗体";
+    font-size: 0.28rem;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+    line-height: 0.4rem;
+}
+.payNum span{
+    margin: 0 0.3rem;
+}
+.typeAll{
+    width: 100%;
+    height: 4.2rem;
+}
+.typeBox{
+    display: block;
+    width: 100%;
+    height: 0.84rem;
+    border-bottom: 0.04rem rgba(13,13,13,0.1) dashed;
+    font-family: "苹方 粗体";
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.8);
+    line-height: 0.84rem;
+}
+.type1{
+    width: 0.24rem;
+    height: 0.06rem;
+    float: left;
+    margin: 0.39rem 0.24rem;
+}
+.zhifubao{
+    background: #ffb20c;
+}
+.weixin{
+    background: #ff2e0d;
+}
+.yinhangka{
+    background: #a137fb;
+}
+.huabei{
+    background: #3772fa;
+}
+.qita{
+    background: #37fb4f;
+}
+.typeBox .iconfont{
+    font-size: 0.26rem;
+    color: rgba(0,0,0,0.3);
+    margin-right: 0.24rem;
+    float: right;
+}
+#active{
+    color: #ffb20c;
+}
+/*支付方式1内容结束*/

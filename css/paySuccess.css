@@ -1,0 +1,245 @@
+/*支付成功顶部开始*/
+#header{
+    width: 100%;
+    height: 0.92rem;
+    background: #ffb20c;
+    padding-top: 0.26rem;
+}
+#header>.headerTitle{
+    width: 6.98rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerTitle>.titleText{
+    font-size: 0.36rem;
+    font-family: "苹方 粗体";
+    color: #fff;
+}
+.headerTitle img{
+    width: 0.36rem;
+    height: 0.36rem;
+}
+.infoBox{
+    width: 7.02rem;
+    height: 3.5rem;
+    margin: 0.24rem auto 0.28rem;
+}
+.goodInfo{
+    border-radius: 0.1rem;
+    display: block;
+    width: 7.02rem;
+    height: 1.48rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.05rem 0.15rem 0 rgba(255, 178, 12, 0.53);
+    border-radius: 0.1rem;
+    padding-top: 0.11rem;
+    margin-bottom: 0.8rem;
+}
+.goodInfo img{
+    width: 1.26rem;
+    margin-left: 0.11rem;
+    float: left;
+}
+.goodInfo .textBox{
+    width: 1.86rem;
+    height: 1.39rem;
+    float: left;
+    margin-left: 0.6rem;
+}
+.textBox .name {
+    width: 100%;
+    height: 0.69rem;
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+    color: #000;
+    border-bottom: 1px rgba(0, 0, 0, 0.1) dashed;
+    line-height: 0.69rem;
+}
+.textBox .price{
+    width: 100%;
+    height: 0.69rem;
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+    color: #ff296f;
+    line-height: 0.69rem;
+}
+.textBoxSmall{
+    width: 1.6rem;
+    height: 0.52rem;
+    margin: 0.44rem 0.7rem;
+    float: left;
+    font-family: "苹方 粗体";
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.8);
+}
+.buttonBox{
+    width: 5.24rem;
+    height: 0.6rem;
+    margin: 0 auto 0.38rem;
+}
+.buttonBox a{
+    width: 2.27rem;
+    height: 100%;
+    display: block;
+    float: left;
+    border-radius: 0.295rem;
+    font-family: "苹方 粗体";
+    font-size: 0.26rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.buttonBox .buttonLeft{
+    background: #ff296f;
+    margin-right: 0.7rem;
+}
+.buttonBox .buttonRight{
+    background: #ffb20c;
+}
+/*支付成功顶部结束*/
+/*支付成功热门推荐开始*/
+#middle{
+    width: 7.02rem;
+    height: 0.67rem;
+    margin: 0 auto 0.28rem;
+}
+#middle img{
+    width: 7.02rem;
+}
+#recommendBox{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    padding: 0.3rem 0.24rem;
+}
+#recommendBox ul{
+    width: 0.3rem;
+    height: 0.05rem;
+    display: inline-block;
+    float: left;
+    margin: 0.18rem 0.14rem;
+}
+.title li{
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    float: left;
+    background: #fd2a6d;
+    margin-right: 0.1rem;
+}
+#recommendBox>.recommendItem{
+    width: 100%;
+    height: 1.54rem;
+    display: block;
+    background: #fff;
+    margin-bottom: 0.24rem;
+    position: relative;
+    border-radius: 0.05rem;
+}
+#recommendBox>.recommendItem>img{
+    width: 1.54rem;
+    height: 1.54rem;
+    float: left;
+    margin-right: 0.22rem;
+}
+#recommendBox .recommendItemTitle{
+    width: auto;
+    font-family: "苹方 粗体";
+    font-size: 0.28rem;
+    color: #fe4d86;
+    position: absolute;
+    top: 0;
+    left: 1.76rem;
+    margin-top: 0.12rem;
+    /*margin-bottom: 0.18rem;*/
+}
+#recommendBox .stars{
+    width: 1.6rem;
+    height: 0.25rem;
+    float: right;
+    margin-right: 0.12rem;
+}
+#recommendBox .stars .star{
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-right: 0.07rem;
+    float: left;
+}
+.star img{
+    width: 0.25rem;
+    float: left;
+}
+.recommendItem .recommendItemService{
+    width: auto;
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0.58rem;
+    left: 1.76rem;
+}
+.recommendItem .price{
+    width: auto;
+    font-family: "San Francisco Display-Bold";
+    font-size: 0.2rem;
+    color: #ff296f;
+    position: absolute;
+    top: 0.96rem;
+    left: 1.76rem;
+}
+.recommendItem .discountPrice{
+    width: auto;
+    font-family: "苹方 粗体";
+    font-size: 0.2rem;
+    color: #ffb30c;
+    position: absolute;
+    top: 0.96rem;
+    left: 3.34rem;
+}
+.recommendItem .icon-dingwei{
+    width: 0.14rem;
+    height: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    font-size: 0.18rem;
+    position: absolute;
+    bottom: 0.12rem;
+    left: 1.76rem;
+}
+.recommendItem .distance{
+    width: auto;
+    color: rgba(0,0,0,0.5);
+    font-size: 0.18rem;
+    font-family: "San Francisco Display-Bold";
+    position: absolute;
+    bottom: 0.07rem;
+    left: 2rem;
+}
+.recommendItem .distancePrice{
+    width: auto;
+    color: rgba(0,0,0,0.5);
+    font-size: 0.18rem;
+    font-family: "苹方 粗体";
+    position: absolute;
+    bottom: 0.07rem;
+    left: 3.83rem;
+}
+.recommendItem .icon-gouwucheman {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: #ff296f;
+    font-size: 0.34rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    position: absolute;
+    bottom: 0.24rem;
+    right: 0.24rem;
+}
+#recommendBox a:last-child{
+    margin-bottom: 0;
+}
+/*支付成功热门推荐结束*/

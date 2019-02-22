@@ -1,0 +1,274 @@
+body{
+    background: #eee;
+}
+/*确认订单顶部开始*/
+#header{
+    width: 100%;
+    height: 2.16rem;
+    background: #ffb20c;
+    padding-top: 0.26rem;
+    margin-bottom: 0.24rem;
+}
+#header>.headerTitle{
+    width: 7.02rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerTitle>.titleText{
+    font-size: 0.36rem;
+    font-family: "苹方 粗体";
+    color: #fff;
+}
+.headerTitle img{
+    width: 0.36rem;
+    height: 0.36rem;
+}
+#header>.infoBox{
+    width: 7.02rem;
+    height: 1rem;
+    margin: 0.42rem auto 0;
+}
+.infoBox .infoText{
+    width: auto;
+    height: 1.02rem;
+    float: left;
+}
+.infoText .textS{
+    font-size: 0.18rem;
+    font-family: "苹方 粗体";
+    color: #fff;
+    margin-bottom: 0.06rem;
+}
+.infoText .text{
+    font-size: 0.22rem;
+    font-family: "苹方 粗体";
+    color: #fff;
+    margin-bottom: 0.02rem;
+}
+.infoText .text .iconfont{
+    width: 0.14rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+/*确认订单顶部结束*/
+/*确认订单支付方式开始*/
+.payType{
+    width: 7.02rem;
+    height: auto;
+    margin: 0 auto;
+}
+.payType .text{
+    font-family: "苹方 粗体";
+    font-size: 0.22rem;
+    color: #ffb20c;
+    margin-bottom: 0.24rem;
+}
+.payType .text .iconfont{
+    font-size: 0.24rem;
+}
+.payType ul{
+    width: 7.02rem;
+    height: 1.41rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin: 0 auto;
+}
+.payType li{
+    width: 6.3rem;
+    height: 0.7rem;
+    margin: 0 auto;
+}
+.payType .time{
+    border-bottom: 0.01rem rgba(0,0,0,0.5) dashed;
+    font-family: "苹方 粗体";
+    font-size: 0.22rem;
+    color: #ffb20c;
+}
+.payType .type{
+    font-family: "苹方 粗体";
+    font-size: 0.22rem;
+    color: #ffb20c;
+}
+.payType .one{
+    float: left;
+    line-height: 0.7rem;
+}
+.payType .two{
+    float: right;
+    line-height: 0.7rem;
+    margin-right: 0.3rem;
+}
+.payType li .iconfont{
+    float: right;
+    line-height: 0.7rem;
+    font-size: 0.22rem;
+    color: #ffb20c;
+}
+.confirmText{
+    width: 3.2rem;
+    margin: 0.6rem auto;
+}
+#ch{
+    font-family: "苹方 粗体";
+    font-size: 0.26rem;
+    color: #ffb20c;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+#en{
+    font-family: "San Francisco Display-Bold";
+    font-size: 0.26rem;
+    color: #ffb20c;
+    opacity: 0.5;
+    text-align: center;
+}
+/*确认订单支付方式结束*/
+/*确认订单商品开始*/
+.goodsBox{
+    width: 7.02rem;
+    height: 4.05rem;
+    margin: 0 auto 0.24rem;
+}
+.goodInfo{
+    width: 100%;
+    height: 1.11rem;
+    margin-bottom: 0.24rem;
+    padding-top: 0.08rem;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.goodInfo img{
+    width: 0.95rem;
+    margin-left: 0.08rem;
+    float: left;
+}
+.goodInfo .textBox{
+    width: 2.7rem;
+    height: 1.03rem;
+    float: left;
+    margin-left: 0.6rem;
+}
+.textBox .name {
+    width: 100%;
+    height: 0.51rem;
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+    color: #000;
+    border-bottom: 1px rgba(0, 0, 0, 0.1) dashed;
+    line-height: 0.51rem;
+}
+.textBox .price{
+    width: 100%;
+    height: 0.51rem;
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+    color: #ff296f;
+    line-height: 0.51rem;
+}
+.goodInfo .imgBox{
+    width: 1.1rem;
+    height: 0.36rem;
+    float: right;
+    margin-right: 0.24rem;
+    margin-top: 0.3rem;
+    font-family: "San Francisco Display-Bold";
+    font-size: 0.24rem;
+    color: #ffb20c;
+    text-align: center;
+    line-height: 0.36rem;
+}
+.imgBox img{
+    width: 0.36rem;
+    margin: 0;
+}
+.imgBox .add{
+    float: right;
+}
+.smallBox{
+    width: 7.02rem;
+    height: 0.86rem;
+    margin: 0 auto 0.24rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+}
+.oneBox{
+    margin-bottom: 0.12rem;
+}
+.smallBox .left{
+    color: rgba(0,0,0,0.8);
+    float: left;
+    line-height: 0.86rem;
+    margin-left: 0.24rem;
+}
+.smallBox .right{
+    float: right;
+    color: #ff296f;
+    line-height: 0.86rem;
+    margin-right: 0.24rem;
+}
+.tip{
+    width: 6.3rem;
+    height: 0.26rem;
+    margin: 0 auto 0.24rem;
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+    color: rgba(255,41,111,0.8);
+}
+.tip .left{
+    float: left;
+}
+.tip .right{
+    float: right;
+}
+.smallBox .black{
+    color: rgba(0,0,0,0.5);
+}
+.smallBox .green{
+    color: #5fd84b;
+}
+/*确认订单商品结束*/
+/*确认订单底部结束*/
+.footerBox{
+    width: 100%;
+    height: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+.payButton{
+    display: block;
+    width: 3.6rem;
+    height: 100%;
+    font-family: "苹方 粗体";
+    font-size: 0.24rem;
+    color: #fff;
+    background-color: #ff296f;
+    border-radius: 0.295rem;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.payButton .circle1{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin-top: 0.27rem;
+    margin-left: 1.1rem;
+}
+.payButton .circle2{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #fe94b8;
+    float: left;
+    margin-top: 0.27rem;
+    margin-left: 0.1rem;
+    float: left;
+}
+/*确认订单底部结束*/

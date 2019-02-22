@@ -1,0 +1,148 @@
+/*支付方式2背景开始*/
+#bg{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*支付方式2背景结束*/
+/*支付方式2内容开始*/
+.other {
+    width: 100%;
+    height: calc(100% - 5.11rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.passwordPay{
+    width: 5.18rem;
+    height: 3.72rem;
+    background: #fff;
+    border-radius: 0.1rem;
+}
+.title{
+    height: 0.77rem;
+    font-family: "苹方 粗体";
+    font-size: 0.3rem;
+    color: #ffb20c;
+    line-height: 0.77rem;
+    text-align: center;
+    border-bottom: 0.04rem rgba(0,0,0,0.1) dashed;
+    padding: 0 0.4rem;
+}
+.title .iconfont {
+    font-size: 0.3rem;
+}
+
+.title a{
+    color: #ffb20c;
+    float: left;
+}
+.money{
+    height: 0.6rem;
+    font-family: "苹方 粗体";
+    font-size: 0.26rem;
+    color: rgba(255,178,12,0.8);
+    line-height: 0.6rem;
+    text-align: center;
+    border-bottom: 0.04rem rgba(0,0,0,0.1) dashed;
+}
+.bankCard{
+    height: 0.88rem;
+    font-family: "苹方 粗体";
+    font-size: 0.22rem;
+    line-height: 0.88rem;
+    border-bottom: 0.04rem rgba(0,0,0,0.1) dashed;
+}
+.bankCard .icon-jiansheyinxing{
+    font-size: 0.22rem;
+    color: #004f9c;
+    margin-left: 0.75rem;
+}
+.bankCard span{
+    font-family: "苹方 粗体";
+    font-size: 0.22rem;
+    color: #000;
+    margin-left: 0.14rem;
+}
+.bankCard .icon-icon-arrow-right2{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.6);
+    float: right;
+    margin-right: 0.34rem;
+}
+.password{
+    height: 0.58rem;
+    padding: 0.28rem 0.34rem 0;
+}
+.passwordBox{
+    width: 0.5rem;
+    height: 0.3rem;
+    margin-right: 0.3rem;
+    float: left;
+    position: relative;
+}
+.passwordBox:last-child{
+    margin-right: 0;
+ }
+.passwordBox .circle{
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 50%;
+    background: #000;
+    margin: 0 auto;
+}
+.passwordBox .back{
+    width: 100%;
+    height: 0.08rem;
+    background: #eee;
+    border-radius: 0.04rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.passwordBox .being{
+    background: #ffb20c;
+}
+.forget{
+    height: 0.9rem;
+    padding: 0.4rem 0.37rem 0.2rem;
+}
+.forget .useFinger{
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    float: left;
+}
+.forget .iconfont{
+    line-height: 0.3rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    float: right;
+    margin-right: 0.14rem;
+}
+.forget span{
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.5);
+    float: right;
+}
+.keyBoard{
+    width: 100%;
+    height: 5.11rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.keyBoard img{
+    height: 5.11rem;
+}
+/*支付方式2内容结束*/

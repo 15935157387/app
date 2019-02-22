@@ -1,0 +1,82 @@
+/*支付方式3背景开始*/
+#bg{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*支付方式3背景结束*/
+/*支付方式3内容开始*/
+.fingerPrintPay{
+    width: 5.18rem;
+    height: 4.14rem;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+}
+.title{
+    height: 0.98rem;
+    font-family: "苹方 粗体";
+    font-size: 0.3rem;
+    color: #ffb20c;
+    line-height: 0.98rem;
+    text-align: center;
+    border-bottom: 0.04rem rgba(0,0,0,0.1) dashed;
+    padding: 0 0.4rem;
+}
+.title .iconfont {
+    float: left;
+    font-size: 0.3rem;
+}
+.title a{
+    color: #ffb20c;
+    float: left;
+}
+.money{
+    height: 0.6rem;
+    font-family: "苹方 粗体";
+    font-size: 0.26rem;
+    color: rgba(255,178,12,0.8);
+    line-height: 0.6rem;
+    text-align: center;
+    border-bottom: 0.04rem rgba(0,0,0,0.1) dashed;
+}
+.fingerPrint{
+    width: 100%;
+    height: 1.1rem;
+    margin: 0.24rem 0 0.3rem;
+}
+.fingerPrint img{
+    width: 1.1rem;
+    margin: 0 auto;
+}
+.fingerPrintId{
+    font-family: "苹方 粗体";
+    font-size: 0.2rem;
+    margin: 0.24rem 0;
+}
+.fingerPrintId a{
+    color: rgba(0,0,0,0.5);
+}
+.manualInput {
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+}
+.manualInput a{
+    color: rgba(0,0,0,0.5);
+}
+/*支付方式3内容结束*/

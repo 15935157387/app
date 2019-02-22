@@ -1,0 +1,237 @@
+/*背景图开始*/
+body>img{
+    width: 100%;
+    height: 100%;
+}
+#zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*背景图结束*/
+/*注册按钮开始*/
+.register{
+    display: block;
+    width: 1.71rem;
+    height: 0.61rem;
+    border-radius: 0.305rem;
+    background: #f1a503;
+    color: #fff;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.61rem;
+    position: absolute;
+    top: 0.42rem;
+    right: 0.45rem;
+}
+/*注册按钮结束*/
+/*登录主体开始*/
+#input{
+    width: 5.8rem;
+    height: 4.23rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.errorId{
+    width: 2.06rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.7rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.26rem;
+}
+.errorId .iconfont{
+    font-size: 0.22rem;
+    color: #ff0c3a;
+    float: left;
+    margin-right: 0.1rem;
+}
+.errorId span{
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+    color: #ff0c3a;
+    float: left;
+}
+.errorPwd{
+    width: 2.06rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 1.7rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.26rem;
+}
+.errorPwd .iconfont{
+    font-size: 0.22rem;
+    color: #ff0c3a;
+    float: left;
+    margin-right: 0.1rem;
+}
+.errorPwd span{
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+    color: #ff0c3a;
+    float: left;
+}
+.inputCont{
+    width: 4.2rem;
+    height: 0.5rem;
+    float: left;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.pwd{
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.inputCont>img{
+    width: 0.5rem;
+    height: 100%;
+    float: left;
+    margin-right: 0.24rem;
+}
+.inputBox{
+    width: 3.46rem;
+    height: 0.5rem;
+    border-radius: 0.24rem;
+    border: 1px solid #f1a503;
+    padding-top: 0.03rem;
+    float: left;
+}
+.inputBox>input{
+    width: 2.3rem;
+    height: 0.4rem;
+    border: none;
+    font-size: 0.2rem;
+    outline: none;
+    float: left;
+    margin-left: 0.2rem;
+}
+.inputBox .iconfont{
+    font-size: 0.22rem;
+    color: #32a01c;
+    float: right;
+    line-height: 0.4rem;
+    margin-right: 0.2rem;
+}
+.click {
+    width: 3rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 2.74rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.click a{
+    line-height: 0.18rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.6);
+}
+.click1{
+    width: 1.1rem;
+    height: 0.26rem;
+    float: left;
+}
+.click1>input {
+    width: 0.18rem;
+    height: 0.18rem;
+    vertical-align: middle;
+}
+.click2{
+    width: 1.11rem;
+    height: 0.18rem;
+    float: right;
+}
+.click2 .iconfont{
+    font-size: 0.18rem;
+    float: left;
+    margin-right: 0.05rem;
+}
+.click>a{
+    text-decoration: none;
+}
+.enter{
+    display: block;
+    width: 3.21rem;
+    height: 0.62rem;
+    background:rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0.41rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 0.31rem;
+    line-height: 0.62rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+}
+#active{
+    background: #ffb20c;
+}
+/*登录主体结束*/
+/*第三方登录开始*/
+#otherLogin{
+    width: 2.44rem;
+    height: 0.28rem;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.28rem;
+    color: #fff;
+    line-height: 0.28rem;
+}
+.circle{
+    width: 0.28rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circle>img{
+    width: 0.11rem;
+    height: 0.11rem;
+    margin-top: 0.1rem;
+}
+#otherWay{
+    width: 3.43rem;
+    height: 0.76rem;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#otherWay>a>img{
+    width: 0.76rem;
+    height: 100%;
+}
+/*第三方登录结束*/

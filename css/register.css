@@ -1,0 +1,162 @@
+/*背景图开始*/
+body>img{
+    width: 100%;
+    height: 100%;
+}
+#zhezhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*背景图结束*/
+/*注册按钮开始*/
+.login{
+    display: block;
+    width: 1.71rem;
+    height: 0.61rem;
+    border-radius: 0.305rem;
+    background: #f1a503;
+    color: #fff;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.61rem;
+    position: absolute;
+    top: 0.42rem;
+    right: 0.45rem;
+}
+/*注册按钮结束*/
+/*登录主体开始*/
+#input{
+    width: 5.8rem;
+    height: 4.7rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.inputCont{
+    width: 4.2rem;
+    height: 0.5rem;
+    float: left;
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.errorId{
+    width: 2.06rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.26rem;
+}
+.errorId .iconfont{
+    font-size: 0.22rem;
+    color: #ff0c3a;
+    float: left;
+    margin-right: 0.1rem;
+}
+.errorId span{
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+    color: #ff0c3a;
+    float: left;
+}
+.errorPwd{
+    width: 2.06rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 1.3rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.26rem;
+}
+.errorPwd .iconfont{
+    font-size: 0.22rem;
+    color: #ff0c3a;
+    float: left;
+    margin-right: 0.1rem;
+}
+.errorPwd span{
+    font-family: "苹方 粗体";
+    font-size: 0.18rem;
+    color: #ff0c3a;
+    float: left;
+}
+.pwd{
+    position: absolute;
+    top: 1.6rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.pwd2{
+    position: absolute;
+    top: 2.6rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.inputCont>img{
+    width: 0.5rem;
+    height: 100%;
+    float: left;
+    margin-right: 0.24rem;
+}
+.inputBox{
+    width: 3.46rem;
+    height: 0.5rem;
+    border-radius: 0.24rem;
+    border: 1px solid #f1a503;
+    padding-top: 0.03rem;
+    float: left;
+}
+.inputBox>input{
+    width: 2.3rem;
+    height: 0.4rem;
+    border: none;
+    font-size: 0.2rem;
+    outline: none;
+    float: left;
+    margin-left: 0.2rem;
+}
+.inputBox .iconfont{
+    font-size: 0.22rem;
+    color: #32a01c;
+    float: right;
+    line-height: 0.4rem;
+    margin-right: 0.2rem;
+}
+.register{
+    display: block;
+    width: 3.21rem;
+    height: 0.62rem;
+    background:rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0.41rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 0.31rem;
+    line-height: 0.62rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+}
+#active{
+    background: #ffb20c;
+}
+/*登录主体结束*/
